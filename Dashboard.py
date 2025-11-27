@@ -74,7 +74,7 @@ with st.container():
 # --------------------------
 
 # Ruta del archivo Excel
-DATA_FILE = "/Users/juanrodriguez/Desktop/Dashboard/Datos prueba.xlsx"
+DATA_FILE = "Datos prueba.xlsx"
 
 @st.cache_data
 def load_data(path: str) -> pd.DataFrame:
